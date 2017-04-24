@@ -1,6 +1,7 @@
 # exercise_processing
 
 - biggingCircle.pde - 마우스를 따라다니며 점점 커지는 원
+- colorChange.pde - 마우스의 x좌표에 따라 색깔이 바뀌는 예제
 - createCircle.pde - 변수를 사용해 원을 그리는 예제
 - createLine.pde - 변수를 사용해 라인을 그리는 예제
 - flyingZoog.pde - 변수를 사용해 날아가는 Zoog 만들기
