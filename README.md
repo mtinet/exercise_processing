@@ -7,6 +7,7 @@
 - createCircle.pde - 변수를 사용해 원을 그리는 예제
 - createLine.pde - 변수를 사용해 라인을 그리는 예제
 - flyingZoog.pde - 변수를 사용해 날아가는 Zoog 만들기
+- function.pde - 함수를 이용해 얼굴 모양을 바운스하는 예제  
 - moveZoog.pde - transrate함수를 사용하여 객체가 마우스를 따라 다니도록 하는 예제
 - randomColorBox.pde - 랜덤함수를 사용하여 컬러박스를 생성하는 예제
 - shooting.pde - 슈팅게임 만들기 미션 수행중.....
