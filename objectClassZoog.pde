@@ -1,18 +1,21 @@
 Zoog zoog1;
 Zoog zoog2;
+color c1 = color(random(255), random(255), random(255));
+color c2 = color(random(255), random(255), random(255));
 
 void setup() {
   size(600, 400);
   zoog1 = new Zoog(random(50, 550), random(100, 400), random(50, 200), random(50, 200), random(10, 50));
   zoog2 = new Zoog(random(50, 550), random(100, 400), random(50, 200), random(50, 200), random(10, 50));
+
 }
 
 void draw() {
   background(255);
   zoog1.jiggle(2);
-  zoog1.display();
+  zoog1.display(c1);
   zoog2.jiggle(2);
-  zoog2.display();
+  zoog2.display(c2);
 }
 
 
@@ -25,6 +28,7 @@ class Zoog {
     w = tempW;
     h = tempH;
     eyeSize = tempEyeSize;
+  
   }
   
   void jiggle(float speed) {
@@ -35,7 +39,9 @@ class Zoog {
     y = constrain(y, 0, height);
   }
   
-  void display() {
+  void display(color c) {
+    
+    
     ellipseMode(CENTER);
     rectMode(CENTER);
     
@@ -52,7 +58,7 @@ class Zoog {
     fill(255);
     ellipse(x, y - h, w, h);
     
-    fill(0);
+    fill(c);
     ellipse(x - w/3, y - h, eyeSize, eyeSize*2);
     ellipse(x + w/3, y - h, eyeSize, eyeSize*2);
     
