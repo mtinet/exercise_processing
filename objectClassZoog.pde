@@ -3,8 +3,8 @@ Zoog zoog2;
 
 void setup() {
   size(600, 400);
-  zoog1 = new Zoog(200, 200, 100, 100, 50);
-  zoog2 = new Zoog(400, 200, 70, 150, 20);
+  zoog1 = new Zoog(random(50, 550), random(100, 400), random(50, 200), random(50, 200), random(10, 50));
+  zoog2 = new Zoog(random(50, 550), random(100, 400), random(50, 200), random(50, 200), random(10, 50));
 }
 
 void draw() {
