@@ -1,5 +1,7 @@
 # exercise_processing
 
+- array50point.pde - 배열을 사용해 50개의 점을 연속으로 찍는 예제  
+- array50point2.pde - 배열을 사용해 50개의 점을 연속으로 찍으며 그 색과 크기를 변화시키는 예제  
 - biggingCircle.pde - 마우스를 따라다니며 점점 커지는 원
 - colorChange.pde - 마우스의 x좌표에 따라 색깔이 바뀌는 예제
 - colorChange1.pde - 마우스의 x좌표에 따라 배경색이 점점 바뀌는 예제
