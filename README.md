@@ -14,7 +14,8 @@
 - functionZoog.pde - 함수를 이용해 Zoog 에 따라 눈의 색깔을 바꾸고, Zoog가 떨리도록 하는 예제  
 - moveZoog.pde - transrate함수를 사용하여 객체가 마우스를 따라 다니도록 하는 예제  
 - objectCar.pde - 객체를 활용하기 전에 일반적인 코드로 작성된 자동차 예제  
-- objectClassCar.pde -  클래스로 객체를 만들어 작성된 자동차 예제  
+- objectClassCar.pde - 클래스로 객체를 만들어 작성된 자동차 예제  
+- objectClassCar2.pde - 클래스에 인수를 적용하여 서로 다른 여러 자동차 객체를 만드는 예제  
 - randomColorBox.pde - 랜덤함수를 사용하여 컬러박스를 생성하는 예제
 - shooting.pde - 슈팅게임 만들기 미션 수행중.....
 - useSystemVar.pde - 시스템 변수를 활용해보는 예제
