@@ -12,7 +12,9 @@
 - functionCar.pde - 함수를 이용해 다양한 색깔과 크기의 자동차를 그리는 예제  
 - functionCircle.pde - 함수의 리턴값을 이용해 원의 중심으로부터\의 거리를 재고 그 거리에 따라 원의 색을 바꾸는 예제  
 - functionZoog.pde - 함수를 이용해 Zoog 에 따라 눈의 색깔을 바꾸고, Zoog가 떨리도록 하는 예제  
-- moveZoog.pde - transrate함수를 사용하여 객체가 마우스를 따라 다니도록 하는 예제
+- moveZoog.pde - transrate함수를 사용하여 객체가 마우스를 따라 다니도록 하는 예제  
+- objectCar.pde - 객체를 활용하기 전에 일반적인 코드로 작성된 자동차 예제  
+- objectClassCar.pde -  클래스로 객체를 만들어 작성된 자동차 예제  
 - randomColorBox.pde - 랜덤함수를 사용하여 컬러박스를 생성하는 예제
 - shooting.pde - 슈팅게임 만들기 미션 수행중.....
 - useSystemVar.pde - 시스템 변수를 활용해보는 예제
