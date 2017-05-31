@@ -21,6 +21,7 @@
 - objectClassCar2.pde - 클래스에 인수를 적용하여 서로 다른 여러 자동차 객체를 만드는 예제  
 - objectClassGravity.pde - 클래스에 인수를 적용하여 서로 다른 공객체가 중력에 의해 작용되는 예제  
 - objectClassZoog.pde - 클래스와 인수를 적용한 Zoog  
+- objectInteraction - 롤오버가 되면 색깔이 밝아지도록 하는 상호반응형 객체를 만드는 예제  
 - randomColorBox.pde - 랜덤함수를 사용하여 컬러박스를 생성하는 예제
 - shooting.pde - 슈팅게임 만들기 미션 수행중.....
 - useSystemVar.pde - 시스템 변수를 활용해보는 예제
