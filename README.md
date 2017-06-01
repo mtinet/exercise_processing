@@ -5,7 +5,8 @@
 - arrayClassSnake.pde - 배열과 클래스를 사용해 50개의 점을 연속으로 찍어 표현하는 뱀을 그리는 예제  
 - arrayFunctionBall.pde - 배열함수를 사용해 원하는 숫자의 볼에 중력을 적용하는 예제  
 - arrayZoogies.pde - 객체배열을 통해 수많은 Zoog를 만드는 예제  
-- biggingCircle.pde - 마우스를 따라다니며 점점 커지는 원
+- biggingCircle.pde - 마우스를 따라다니며 점점 커지는 원  
+- catchBall.pde - 공이 겹치면 메시지와 함께 색이 변하게 하는 예제  
 - colorChange.pde - 마우스의 x좌표에 따라 색깔이 바뀌는 예제
 - colorChange1.pde - 마우스의 x좌표에 따라 배경색이 점점 바뀌는 예제
 - constrain.pde - constrain 함수를 사용해 변수의 값을 제한하는 예제  
