@@ -1,4 +1,6 @@
 # exercise_processing
+1. rainDrop - 빗방울 잡기 게임  
+
 
 - array50point.pde - 배열을 사용해 50개의 점을 연속으로 찍는 예제  
 - array50point2.pde - 배열을 사용해 50개의 점을 연속으로 찍으며 그 색과 크기를 변화시키는 예제  
@@ -25,7 +27,6 @@
 - objectClassGravity.pde - 클래스에 인수를 적용하여 서로 다른 공객체가 중력에 의해 작용되는 예제  
 - objectClassZoog.pde - 클래스와 인수를 적용한 Zoog  
 - objectInteraction - 롤오버가 되면 색깔이 밝아지도록 하는 상호반응형 객체를 만드는 예제  
-- rainDrop.pde - 빗방울  
 - randomColorBox.pde - 랜덤함수를 사용하여 컬러박스를 생성하는 예제
 - shooting.pde - 슈팅게임 만들기 미션 수행중.....  
 - timerScreenSaver.pde - 1초 단위로 바탕화면 색이 바뀌는 화면보호기 예제  
