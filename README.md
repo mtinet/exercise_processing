@@ -4,6 +4,7 @@
 - adjustProbability.pde - 확률을 인위적으로 조정하는 예제  
 - adjustProbability2.pde - 확률을 인위적으로 조정하는 예제 2  
 - adjustProbability3.pde - 확률을 인위적으로 조정해 화면에 해당 색깔이 들어간 원을 그리는 예제  
+- adjustProbability4.pde - 확률을 인위적으로 조정해 화면의 하얀색 원이 확률에 따라 오르락내리락 하게 하는 예제  
 - array50point.pde - 배열을 사용해 50개의 점을 연속으로 찍는 예제  
 - array50point2.pde - 배열을 사용해 50개의 점을 연속으로 찍으며 그 색과 크기를 변화시키는 예제  
 - arrayClassSnake.pde - 배열과 클래스를 사용해 50개의 점을 연속으로 찍어 표현하는 뱀을 그리는 예제  
