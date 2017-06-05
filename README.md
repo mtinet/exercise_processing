@@ -2,6 +2,7 @@
 1. rainDrop - 빗방울 잡기 게임  
 
 - adjustProbability.pde - 확률을 인위적으로 조정하는 예제  
+- adjustProbability2.pde - 확률을 인위적으로 조정하는 예제 2  
 - array50point.pde - 배열을 사용해 50개의 점을 연속으로 찍는 예제  
 - array50point2.pde - 배열을 사용해 50개의 점을 연속으로 찍으며 그 색과 크기를 변화시키는 예제  
 - arrayClassSnake.pde - 배열과 클래스를 사용해 50개의 점을 연속으로 찍어 표현하는 뱀을 그리는 예제  
