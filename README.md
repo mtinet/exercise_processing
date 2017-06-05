@@ -19,6 +19,7 @@
 - createLine.pde - 변수를 사용해 라인을 그리는 예제
 - distance.pde - 중심점으로부터 거리를 재는 예제  
 - factorial.pde - 팩토리얼을 계산해주는 예제  
+- factorialRecursion.pde - 팩토리얼을 재귀함수를 통해 계산해주는 예제  
 - flyingZoog.pde - 변수를 사용해 날아가는 Zoog 만들기
 - function.pde - 함수를 이용해 얼굴 모양을 바운스하는 예제  
 - functionCar.pde - 함수를 이용해 다양한 색깔과 크기의 자동차를 그리는 예제  
