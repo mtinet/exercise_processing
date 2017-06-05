@@ -35,6 +35,7 @@
 - oscillation.pde - 삼각함수를 사용해 진동을 만들고, 추를 시각화하는 예제  
 - oscillationPerlin.pde - 펄린 노이즈를 사용한 진동 예제  
 - perlinNoise.pde - 펄린 노이즈를 사용해 박스의 y좌표 위치와 y축 길이를 변화시키는 예제  
+- perlinNoise2.pde - 펄린 노이즈를 사용해 주파수 형태를 그리는 예제  
 - perlinNoiseCircle.pde - 펄린 노이드를 사용해 원의 크기를 조절하는 예제
 - randomColorBox.pde - 랜덤함수를 사용하여 컬러박스를 생성하는 예제  
 - randomCounts - 랜덤 함수에 의해 발생하는 값의 분포를 확인하는 예제  
