@@ -20,7 +20,8 @@
 - functionCar.pde - 함수를 이용해 다양한 색깔과 크기의 자동차를 그리는 예제  
 - functionCircle.pde - 함수의 리턴값을 이용해 원의 중심으로부터\의 거리를 재고 그 거리에 따라 원의 색을 바꾸는 예제  
 - functionZoog.pde - 함수를 이용해 Zoog 에 따라 눈의 색깔을 바꾸고, Zoog가 떨리도록 하는 예제  
-- moveZoog.pde - transrate함수를 사용하여 객체가 마우스를 따라 다니도록 하는 예제  
+- modulo.pde - 나머지를 구하는 %를 사용하여 배열의 총 길이에 이르면 언제나 0으로 되돌리는 방법  
+- moveZoog.pde - transrate함수를 사용하여 객체가 마우스를 따라 다니도록 하는 예제  
 - objectCar.pde - 객체를 활용하기 전에 일반적인 코드로 작성된 자동차 예제  
 - objectClassCar.pde - 클래스로 객체를 만들어 작성된 자동차 예제  
 - objectClassCar2.pde - 클래스에 인수를 적용하여 서로 다른 여러 자동차 객체를 만드는 예제  
