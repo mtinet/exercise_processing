@@ -38,6 +38,7 @@
 - randomCounts - 랜덤 함수에 의해 발생하는 값의 분포를 확인하는 예제  
 - shooting.pde - 슈팅게임 만들기 미션 수행중.....  
 - timerScreenSaver.pde - 1초 단위로 바탕화면 색이 바뀌는 화면보호기 예제  
+- trigonometry - 삼각법을 이용해 원을 그리는 예제  
 - useSystemVar.pde - 시스템 변수를 활용해보는 예제
 - useVariable.pde - 변수를 활용해보는 예제
 - videoCapture.pde - 웹캠 영상을 뿌려주는 예제
