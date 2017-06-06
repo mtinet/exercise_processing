@@ -4,9 +4,11 @@
  - arduinoToProcessing - 아두이노의 센싱값을 시리얼 통신을 통해 프로세싱으로 전송하는 예제  
  - processingToArduino - 프로세싱의 처리값을 시리얼 통신을 통해 아두이노로 전송하는 예제  
  
+--- 
 ### 2. rainDrop  
 빗방울 잡기 게임  
 
+---
 ### 3. 각종예제  
 - adjustProbability.pde - 확률을 인위적으로 조정하는 예제  
 - adjustProbability2.pde - 확률을 인위적으로 조정하는 예제 2  
