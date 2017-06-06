@@ -1,5 +1,6 @@
 # exercise_processing
-1. rainDrop - 빗방울 잡기 게임  
+1. arduinoToProcessing - 아두이노와 프로세싱 사이의 시리얼 통신 테스트 예제(폰트삽입포함)   
+2. rainDrop - 빗방울 잡기 게임  
 
 - adjustProbability.pde - 확률을 인위적으로 조정하는 예제  
 - adjustProbability2.pde - 확률을 인위적으로 조정하는 예제 2  
