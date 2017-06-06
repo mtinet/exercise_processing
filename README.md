@@ -1,5 +1,7 @@
 # exercise_processing
-1. arduinoToProcessing - 아두이노와 프로세싱 사이의 시리얼 통신 테스트 예제(폰트삽입포함)   
+1. arduinoSerial - 아두이노와 프로세싱 사이의 시리얼 통신 테스트 예제(폰트삽입포함)   
+ - arduinoToProcessing - 아두이노의 센싱값을 시리얼 통신을 통해 프로세싱으로 전송하는 예제  
+ - processingToArduino - 프로세싱의 처리값을 시리얼 통신을 통해 아두이노로 전송하는 예제  
 2. rainDrop - 빗방울 잡기 게임  
 
 - adjustProbability.pde - 확률을 인위적으로 조정하는 예제  
