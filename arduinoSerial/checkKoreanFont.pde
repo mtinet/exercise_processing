@@ -9,3 +9,6 @@ void setup() {
   textAlign(CENTER, CENTER);
   text(" 가나다라마바사아", width/2, height/2);
 }
+
+
+// https://amac2016.blogspot.kr/2016/04/processing.html
