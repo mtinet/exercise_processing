@@ -8,7 +8,7 @@ void setup() {
   println("Available serial ports:");
   println(Serial.list());  //시리얼 포트의 리스트를 보여줌
   
-  port = new Serial(this, "COM6", 9600);  // 포트 선택
+  port = new Serial(this, "COM3", 9600);  // 포트 선택
   //port = new Serial(this, Serial.list()[0], 9600);  
   
   port.clear();  //포트 초기화
@@ -38,12 +38,13 @@ void draw() {
     fill(255, 0, 0);
     rect(width/3, height/2, 50, 50);
     port.write(49);
+    println("ON");
   }
   //'OFF"버튼 구역 안에서 마우스를 클릭하면 버튼색깔을 바꾸고, 50(숫자 2)를 시리얼 통신으로 송신
   if (mouseX < 200 && mouseX > 150 && mouseY < 125 && mouseY > 75 && mousePressed) {
     fill(0, 100, 255);
     rect(width*2/3, height/2, 50, 50);
     port.write(50);
+    println("OFF");
   }
 }
-
