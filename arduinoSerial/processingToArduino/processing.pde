@@ -8,7 +8,7 @@ void setup() {
   println("Available serial ports:");
   println(Serial.list());  //시리얼 포트의 리스트를 보여줌
   
-  port = new Serial(this, "COM3", 9600);  // 포트 선택
+  port = new Serial(this, "COM3", 9600);  // 포트 선택, 아두이노가 연결된 포트를 선택해야 함
   //port = new Serial(this, Serial.list()[0], 9600);  
   
   port.clear();  //포트 초기화
