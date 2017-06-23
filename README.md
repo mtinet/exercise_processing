@@ -55,9 +55,10 @@
 - recursionCircle.pde - 재귀함수를 이용해 만든 동심원 예제  
 - recursionCircle2.pde - 재귀함수를 이용해 만든 프랙탈 예제  
 - recursionCircle3.pde - 재귀함수를 이용해 만든 프랙탈 예제2  
-- rotateZCY.pde - 사각형을 각각 Z, X, Y축을 기준으로 회전하는 3D 예제  
+- matrixRotate.pde - 행렬(Matrix)을 활용해 서로 다른 두 축을 기준으로 회전하는 예제  
 - rotateMouse.pde - 사각형을 마우스 좌표에 따라 회전하는 3D 예제    
 - rotatePyramid.pde - 함수로 만든 피라미드를 회전시키는 예제  
+- rotateZXY.pde - 사각형을 각각 Z, X, Y축을 기준으로 회전하는 3D 예제  
 - scale.pde - 사각형을 스케일 변환하는 예제  
 - shooting.pde - 슈팅게임 만들기 미션 수행중.....  
 - sine.pde - sine함수를 이용해 sine파를 그려주는 예제  
