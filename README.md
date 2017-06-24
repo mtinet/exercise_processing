@@ -1,14 +1,16 @@
 # exercise_processing  
+
+--- 
+### PImage
+PImage를 활용하여 사진파일 애니메이션 만들기  
+
+
+
 ---
 ### arduinoSerial  
 아두이노와 프로세싱 사이의 시리얼 통신 테스트 예제(폰트삽입포함)   
  - arduinoToProcessing - 아두이노의 센싱값을 시리얼 통신을 통해 프로세싱으로 전송하는 예제  
  - processingToArduino - 프로세싱의 처리값을 시리얼 통신을 통해 아두이노로 전송하는 예제  
-
-
---- 
-### PImage
-PImage를 활용하여 사진파일 애니메이션 만들기  
 
 
 --- 
