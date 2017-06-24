@@ -7,7 +7,7 @@ float speedY;
 void setup() {
   size(640, 480);
   
-  head = loadImage("20160715093408267.jpg");
+  head = loadImage("1.jpg");
   x = 0;
   y = width/2;
   rot = 0;
