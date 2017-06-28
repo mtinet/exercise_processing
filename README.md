@@ -62,6 +62,7 @@ PImage를 활용하여 사진파일 애니메이션 만들기
 - perlinNoise2.pde - 펄린 노이즈를 사용해 주파수 형태를 그리는 예제  
 - perlinNoiseCircle.pde - 펄린 노이드를 사용해 원의 크기를 조절하는 예제  
 - pixels.pde - 픽셀을 임의의 컬러로 설정하는 예제    
+- pixels2.pde - 픽셀에 1차원 배열로 접근하는 방법에 대한 예제  
 - pushPopMatrix.pde - pushMatrix()와 popMatrix()함수를사용해 행렬변환을 하는 예제  
 - randomColorBox.pde - 랜덤함수를 사용하여 컬러박스를 생성하는 예제  
 - randomCounts - 랜덤 함수에 의해 발생하는 값의 분포를 확인하는 예제  
