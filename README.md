@@ -8,6 +8,7 @@ PImage를 활용하여 사진파일 애니메이션 만들기
  - modifyImage.pde - 사진을 불러와서 픽셀단위로 수정하는 예제  
  - momo.pde - 모모랜드 사진이 회전하면서 왔다갔다하는 예제  
  - threshold.pde - 특정 명도 이상을 흰색으로 미만을 검정색으로 처리해주는 예제  
+ - threshold2.pde - 이미지를 이진화하고 마우스 좌표에 따라 명도를 조정하는 예제  
  - tintImage.pde - 불러온 사진의 tint값을 변환시켜주는 예제  
 
 
