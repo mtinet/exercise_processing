@@ -1,12 +1,13 @@
 int savedTime;
 int totalTime = 1000;
+PFont f;
 
 
 void  setup() {
   fullScreen(SPAN);
-  //size(200, 200);
   background(0);
   savedTime = millis();
+  f = createFont("Gjeorgia", 16);
 }
 
 void draw() {
@@ -18,4 +19,8 @@ void draw() {
     background(c);
     savedTime = millis();
   }
+  
+  textFont(f, 80);
+  fill(255);
+  text("Hello World!", mouseX, mouseY);
 }
