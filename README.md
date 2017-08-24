@@ -21,6 +21,12 @@ Or only works properly when the sketch is run as a 32-bit  application.
 
 --- 
 ### PImage
+PFont를 활용하여 글씨 넣기  
+- locationViewer.pde - 마우스를 따라다니는 좌표 태그 만들기  
+
+
+--- 
+### PImage
 PImage를 활용하여 사진파일 애니메이션 만들기  
  - adjustBright.pde - 마우스 x좌표에 따라 밝기를 조정하는 예제  
  - adjustBrightnessByDistance.pde - 마우스 위치에서 특정거리 만큼만 이미지가 보이도록 밝기를 조정하는 예제    
