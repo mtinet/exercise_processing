@@ -12,6 +12,13 @@ video를 활용하여 이미 만들어져 있는 영상을 불러와 변환하�
 - movie.pde - 기본 예제로 동영상을 불러오는 방법을 보여줌  
 - duration.pde - 마우스의 X좌표에 따라 동영상의 재생위치를 이동하는 예제  
 
+**Video라이브러리를 사용할 때 아래와 같은 오류가 발생하는 경우에는 문서 폴더에 있는 프로세싱 라이브러리를 프로세싱 실행파일이 있는 C:\Program Files\processing-3.3.5\modes\java\libraries로 옮긴 다음 프로세싱을 재시동하면 잘 동작한다.**  
+
+A library used by this sketch is not installed properly.  
+A library relies on native code that's not available.  
+Or only works properly when the sketch is run as a 32-bit  application.  
+
+
 --- 
 ### PImage
 PImage를 활용하여 사진파일 애니메이션 만들기  
