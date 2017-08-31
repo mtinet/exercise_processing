@@ -1,7 +1,8 @@
-String headline = "브리핑 완료하고 RGB LED로 넘어갑니다!!!";
+String headline[] = {"얼른 테스트 해보고 나서 브리핑해라!!!!", "바보", "해보"};
 PFont f;
 float x;
 color c;
+int index = 0;
 
 
 void setup() {
@@ -17,14 +18,15 @@ void draw() {
   fill(0);
   textFont(f, 200);
   textAlign(LEFT);
-  text(headline, x, 300);
+  text(headline[index], x, 300);
   
   x = x - 10;
   
-  float w = textWidth(headline);
+  float w = textWidth(headline[index]);
   
   if(x < - w) {
     x = width;
+    index = (index + 1) % headline.length;
   }
 }
 
