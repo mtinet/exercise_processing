@@ -1,7 +1,7 @@
 String headline[] = {"얼른 테스트 해보고 나서 브리핑해라!!!!", "바보", "해보"};
 PFont f;
 float x;
-color c;
+color c = color(255);
 int index = 0;
 
 
