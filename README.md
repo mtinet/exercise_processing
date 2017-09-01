@@ -83,6 +83,7 @@ PImage를 활용하여 사진파일 애니메이션 만들기
 - matrixRotate.pde - 행렬(Matrix)을 활용해 서로 다른 두 축을 기준으로 회전하는 예제  
 - matrixRotate2.pde - 행렬(Matrix)을활용해 다양한 크기의 사각형을 회전시키는 예제  
 - modulo.pde - 나머지를 구하는 %를 사용하여 배열의 총 길이에 이르면 언제나 0으로 되돌리는 방법  
+- mouseInteraction.pde - 마우스를 이동하면 그 값에 따라 모양이 변하는 예제  
 - moveZoog.pde - transrate함수를 사용하여 객체가 마우스를 따라 다니도록 하는 예제  
 - objectCar.pde - 객체를 활용하기 전에 일반적인 코드로 작성된 자동차 예제  
 - objectClassCar.pde - 클래스로 객체를 만들어 작성된 자동차 예제  
