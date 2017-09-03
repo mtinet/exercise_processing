@@ -26,11 +26,13 @@ void draw() {
     
     arclength += w/2;
     
+    //호의 시작점부터 180도를 회전시킨 후 그곳에서부터 문장을 시작하게함.
     float theta = PI + arclength / r;
     
     pushMatrix();
     translate(r*cos(theta), r*sin(theta));
     
+    //글씨 자체를 회전시키는 부분.
     rotate(theta + PI/2);
     
     fill(0);
