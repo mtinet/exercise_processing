@@ -25,6 +25,7 @@ Or only works properly when the sketch is run as a 32-bit  application.
 ### PFont
 PFont를 활용하여 글씨 넣기  
 - alignWidthForMessage.pde - 문자열의 각 문자의 간격을 일정하게 맞춰주는 예제  
+- alignWidthForMessage2.pde - 문자열의 각 문자의 간격을 일정하게 맞춰주기 위해 textWidth 함수를 사용하며 글씨 크기를 주기별로 바꾸는 예제  
 - locationViewer.pde - 마우스를 따라다니는 좌표 태그 만들기  
 - spinningMessage.pde - 메세지를 회전시키는 예제  
 - starwarsText.pde - 스타워즈 스타일 텍스트 표현  
