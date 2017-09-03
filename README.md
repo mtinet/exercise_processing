@@ -22,11 +22,11 @@ Or only works properly when the sketch is run as a 32-bit  application.
 
 
 --- 
-### PImage
-PFont를 활용하여 글씨 넣기  
+### PFont
+PFont를 활용하여 글씨 넣기  
 - locationViewer.pde - 마우스를 따라다니는 좌표 태그 만들기  
 - textMessage.pde - 텍스트를 화면의 오른쪽에서 왼쪽으로 흘러가게 하는 예제  
-
+- spinningMessage.pde - 메세지를 회전시키는 예제  
 
 --- 
 ### PImage
