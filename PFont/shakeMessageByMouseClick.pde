@@ -1,17 +1,17 @@
 PFont f;
 String message = "click mouse to shake it up";
-Letter[]  letters;
+Letter[] letters;
 
 void setup() {
-  size(260, 200);
-  f = createFont("Arial", 20);
+  size(1200, 400);
+  f = createFont("Arial", 100);
   textFont(f);
   
   letters = new Letter[message.length()];
   
-  int x= 16;
+  int x = 16;
   for (int i = 0; i < message.length(); i++) {
-    letters[i] = new Letter(x, 100, message.charAt(i));
+    letters[i] = new Letter(x, height/2, message.charAt(i));
     x += textWidth(message.charAt(i));
   }
 }
