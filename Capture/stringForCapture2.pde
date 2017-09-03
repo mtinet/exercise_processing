@@ -34,7 +34,7 @@ void draw() {
       
       //println(b);
       
-      float fontSize = b / 10;
+      float fontSize = 2 * (b / videoScale);
       textSize(fontSize);
       
       text(chars.charAt(charcount), x, y);
