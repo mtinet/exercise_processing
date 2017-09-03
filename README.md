@@ -31,7 +31,8 @@ PFont를 활용하여 글씨 넣기  
 - shakeMessageByMouseClick.pde - 마우스를 클릭하면 구문의 글씨 하나하나가 공중에 떠다니는 예제  
 - spinningMessage.pde - 메세지를 회전시키는 예제  
 - starwarsText.pde - 스타워즈 스타일 텍스트 표현  
-- textMessage.pde - 텍스트를 화면의 오른쪽에서 왼쪽으로 흘러가게 하는 예제  
+- textAlongACurve.pde - 원의 호에 맞춰 글씨를 넣는 예제  
+- textMessage.pde - 텍스트를 화면의 오른쪽에서 왼쪽으로 흘러가게 하는 예제  
 
 --- 
 ### PImage
