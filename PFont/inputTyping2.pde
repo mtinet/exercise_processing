@@ -17,7 +17,7 @@ void draw() {
   
   text("Click in this sketch and type.\nHit return to save what you typed.", indent, 40);
   text(typing, indent, 90);
-  text("What do you feel the " + saved + "?", indent, 130);
+  text("How do you feel about the " + saved + "?", indent, 130);
 }
 
 void keyPressed() {
