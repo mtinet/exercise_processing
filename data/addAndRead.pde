@@ -16,3 +16,5 @@ String n = row.getString("name");
 
 println(x, y, d, n);
 
+// 수정한 테이블을 저장하고 싶으면 아래 주석을 해제하세요.
+// saveTable(table, "data/new.csv");
