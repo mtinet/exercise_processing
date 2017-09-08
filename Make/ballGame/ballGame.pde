@@ -11,10 +11,12 @@ int score = 0;
 int preScore = 0;
 int life = 3;
 int lineOver = 0;
-
+int speed = 10;
+int adjustSpeed = 0;
 
 void setup(){
-  size(600, 600);
+  //size(600, 600);
+  fullScreen();
   f = createFont("Georgia", 30);
   textFont(f);
   lineX = width-1;
@@ -44,10 +46,11 @@ void ball() {
 }
 
 void lineMove(int y1, int y2) {
+  strokeWeight(10);
   line(lineX, y1, lineX, y2);
   line(lineX, y1, lineX, y2);
-  lineX = lineX - 5;
-  
+  lineX = lineX - speed;
+  strokeWeight(0);
 }
 
 void life() {
