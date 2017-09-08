@@ -68,7 +68,6 @@ void score() {
       score = score + 1;
     }
   }
-
 }
 
 
