@@ -2,30 +2,39 @@ PFont f;
 
 int x = 50;
 int y = 300;
-int lineX = width;
+int lineX = 0;
 int y1 = int(random(height));
 int y2 = int(random(height));
 int y3 = 0;
 
 int score = 0;
-int prescore = 0;
+int preScore = 0;
 int life = 3;
+int lineOver = 0;
+
 
 void setup(){
   size(600, 600);
   f = createFont("Georgia", 30);
+  textFont(f);
+  lineX = width-1;
 }
 
 void draw() {
   background(255);
   textFont(f);
   
+  if (lineX == width) {
+    preScore = score;
+  }
+  
   lineMove(y1, y2);
   ball();
-  score();
   life();
+  score();
   textAlert();
- 
+  
+  //println(lineX, width, preScore, score);
   //println(lineX, x, y, y1, y2, y3);
 }
 
@@ -41,40 +50,40 @@ void lineMove(int y1, int y2) {
   
 }
 
+void life() {
+  if (lineX == 0 && preScore == score) {
+    life = life - 1;
+  } 
+}
+
 void score() {
   if(y1 > y2) {
     y3 = y1;
     y1 = y2;
     y2 = y3;
   }
+  
   if (x + 25 > lineX && x - 25 < lineX) {
     if (y + 25 > y1 && y - 25 < y2) {
       score = score + 1;
     }
   }
-  if (lineX == 0) {
-    prescore = score;
-  }
-  println(prescore, score);
+
 }
 
-void life() {
-  if(lineX == 0) {
-    if(prescore == score) {
-      life = life - 1;
-    }
-  }
-}
+
 
 void textAlert() {
   textSize(20);
   fill(255, 0, 0);
   text("SCORE : " + score, width/10, 50);
+  text("Line Over : " + lineOver, width/10, 80);
   fill(0, 0, 255);
   text("LIFE : " + life, width*2/3, 50);
   
   if (lineX < 0) {
     lineX = width;
+    lineOver = lineOver + 1;
     y1 = int(random(height));
     y2 = int(random(height));
   }
