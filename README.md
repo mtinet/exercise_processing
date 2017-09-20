@@ -33,7 +33,8 @@ PFont를 활용하여 글씨 넣기  
 - alignWidthForMessage.pde - 문자열의 각 문자의 간격을 일정하게 맞춰주는 예제  
 - alignWidthForMessage2.pde - 문자열의 각 문자의 간격을 일정하게 맞춰주기 위해 textWidth 함수를 사용하며 글씨 크기를 주기별로 바꾸는 예제  
 - drawRectOnArc.pde - 원 위에 있는 호에 일정한 각도로 회전한 사각형 그리기  
-- inputTyping.pde - 키보드로 입력받는 값을 엔터키를 기준으로 변수에 저장하고, 화면에 보여주는 예제  
+- extrudeNuberAndSumArray.pde - 배열안에서 콤마와 스페이스로 구분되어 들어있는 숫자를 추출하여 모두 더하는 예제  
+- inputTyping.pde - 키보드로 입력받는 값을 엔터키를 기준으로 변수에 저장하고, 화면에 보여주는 예제  
 - inputTyping2.pde - 키보드로 입력받는 값을 다시 질문에 활용하는 챗봇 예제  
 - inputTypingSizeUp.pde - 키보드로 입력받는 값을 엔터키를 기준으로 변수에 저장하고, 화면에 보여주는 예제의 수정 버전    
 - locationViewer.pde - 마우스를 따라다니는 좌표 태그 만들기  
