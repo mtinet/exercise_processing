@@ -35,6 +35,7 @@ PFont를 활용하여 글씨 넣기  
 - drawRectOnArc.pde - 원 위에 있는 호에 일정한 각도로 회전한 사각형 그리기  
 - inputTyping.pde - 키보드로 입력받는 값을 엔터키를 기준으로 변수에 저장하고, 화면에 보여주는 예제  
 - inputTyping2.pde - 키보드로 입력받는 값을 다시 질문에 활용하는 챗봇 예제  
+- inputTypingSizeUp.pde - 키보드로 입력받는 값을 엔터키를 기준으로 변수에 저장하고, 화면에 보여주는 예제의 수정 버전    
 - locationViewer.pde - 마우스를 따라다니는 좌표 태그 만들기  
 - shakeMessageByMouseClick.pde - 마우스를 클릭하면 구문의 글씨 하나하나가 공중에 떠다니는 예제  
 - spinningMessage.pde - 메세지를 회전시키는 예제  
