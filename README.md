@@ -69,6 +69,12 @@ PImage를 활용하여 사진파일 애니메이션 만들기
 
 
 ---
+### data
+txt, csv파일 등에서 데이터를 불러와 처리하는 예제  
+ - addAndRead.pde - 
+ - table.pde - csv파일을 테이블로 불러와 한 줄씩 row에 넣고 header에있는 분류로 불러오는 예제  
+
+---
 ### 각종예제  
 - adjustProbability.pde - 확률을 인위적으로 조정하는 예제  
 - adjustProbability2.pde - 확률을 인위적으로 조정하는 예제 2  
