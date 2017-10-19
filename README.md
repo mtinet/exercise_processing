@@ -74,6 +74,16 @@ txt, csv파일 등에서 데이터를 불러와 처리하는 예제
  - addAndRead.pde - csv파일에 데이터를 삽입하고 불러오는 예제  
  - table.pde - csv파일을 테이블로 불러와 한 줄씩 row에 넣고 header에있는 분류로 불러오는 예제  
 
+
+
+---
+### serverAndClient
+ - broadcasting.pde -
+ - client.pde - 
+ - receiveData.pde -
+ - server.pde -
+
+
 ---
 ### 각종예제  
 - adjustProbability.pde - 확률을 인위적으로 조정하는 예제  
