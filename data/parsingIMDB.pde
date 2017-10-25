@@ -10,7 +10,7 @@ void draw() {
   background(255);
   image(poster, 10, 10, 164, 250);
   fill(0);
-  text("Shaun the Sheep", 10, 300);
+  text("Mask", 10, 300);
   text(runningtime, 10, 320);
 }
 
