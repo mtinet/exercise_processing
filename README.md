@@ -72,6 +72,7 @@ PImage를 활용하여 사진파일 애니메이션 만들기
 ### data
 txt, csv파일 등에서 데이터를 불러와 처리하는 예제  
  - addAndRead.pde - csv파일에 데이터를 삽입하고 불러오는 예제  
+ - bubbleSign.pde - 버튼을 누르면 거품이 하나씩 늘어나며(최대 10개 까지) 롤오버를 하면 거품의 이름이 나타나는 예제  
  - table.pde - csv파일을 테이블로 불러와 한 줄씩 row에 넣고 header에있는 분류로 불러오는 예제  
  - loopTable.pde - 한 번에 한 줄만 반환하는 gerRow()함수를 for문을 활용해 원하는 범위의 내용을 반복하여 불러오는 예제  
 
