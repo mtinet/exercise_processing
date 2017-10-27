@@ -72,7 +72,8 @@ PImage를 활용하여 사진파일 애니메이션 만들기
 ### data
 txt, csv파일 등에서 데이터를 불러와 처리하는 예제  
  - addAndRead.pde - csv파일에 데이터를 삽입하고 불러오는 예제  
- - analyzingOfText.pde - 웹상에 있는 텍스트 문서를 불러와서 단어의 빈도수를 분석하는 예제  
+ - analyzingOfText.pde - 웹상에 있는 텍스트 문서를 불러와서 단어의 빈도수를 바 그래프로 분석하는 예제  
+ - analyzingOfText2.pde - 웹상에 있는 텍스트 문서를 불러와서 단어의 빈도수를 글씨 크기로 분석하는 예제  
  - bubbleSign.pde - 버튼을 누르면 거품이 하나씩 늘어나며(최대 10개 까지) 롤오버를 하면 거품의 이름이 나타나는 예제  
  - parsinIMDB.pde - IMDB사이트의 HTML을 불러와서 내가 원하는 정보를 획득하는 예제  
  - table.pde - csv파일을 테이블로 불러와 한 줄씩 row에 넣고 header에있는 분류로 불러오는 예제  
