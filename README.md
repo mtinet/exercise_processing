@@ -27,6 +27,11 @@ A library used by this sketch is not installed properly.
 A library relies on native code that's not available.  
 Or only works properly when the sketch is run as a 32-bit  application.  
 
+---
+### PDF
+프로세싱의 화면을 pdf로 인쇄하는 예제  
+- beginRecord.pde - 프로세싱의 구동화면을 화면에 뿌린다음 pdf로 인쇄함  
+
 
 --- 
 ### PFont
