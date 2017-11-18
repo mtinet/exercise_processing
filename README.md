@@ -89,7 +89,8 @@ txt, csv파일 등에서 데이터를 불러와 처리하는 예제
 
 ---
 ### saveImage  
-- saveImage.pde - 프로그램 실행 결과 화면을 image파일로 저장(jpg, tif, tga, png 가능)  
+- saveFrameImage.pde - 프로그램 실행 결과 화면을 프레임별로 저장하는 예제  
+- saveImage.pde - 프로그램 실행 결과 화면을 image파일로 저장(jpg, tif, tga, png 가능)  
 
 ---
 ### serverAndClient
