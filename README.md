@@ -87,6 +87,9 @@ txt, csv파일 등에서 데이터를 불러와 처리하는 예제
  - table.pde - csv파일을 테이블로 불러와 한 줄씩 row에 넣고 header에있는 분류로 불러오는 예제  
  - loopTable.pde - 한 번에 한 줄만 반환하는 gerRow()함수를 for문을 활용해 원하는 범위의 내용을 반복하여 불러오는 예제  
 
+---
+### saveImage  
+- saveImage.pde - 프로그램 실행 결과 화면을 image파일로 저장(jpg, tif, tga, png 가능)  
 
 ---
 ### serverAndClient
