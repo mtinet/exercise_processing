@@ -31,7 +31,8 @@ Or only works properly when the sketch is run as a 32-bit  application.
 ### PDF
 프로세싱의 화면을 pdf로 인쇄하는 예제  
 - beginRecord.pde - 프로세싱의 구동화면을 화면에 뿌린 다음 pdf로 인쇄  
-- clickSavePDF.pde - 직선이 랜덤으로 색을 바꿔가며 그려지는 예제를 마우스를 클릭할 때 pdf파일로 저장  
+- clickP3DPDF.pde - P3D이벤트를 재생하면서 마우스를 클릭할 때 pdf파일로 저장  
+- clickSavePDF.pde - 직선이 랜덤으로 색을 바꿔가며 그려지는 예제를 마우스를 클릭할 때 pdf파일로 저장  
 - pdf.pde - 프로세싱의 구동화면 없이 결과물을 pdf로 인쇄  
 
 
