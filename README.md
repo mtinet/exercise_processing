@@ -83,7 +83,8 @@ txt, csv파일 등에서 데이터를 불러와 처리하는 예제
  - analyzingOfText.pde - 웹상에 있는 텍스트 문서를 불러와서 단어의 빈도수를 바 그래프로 분석하는 예제  
  - analyzingOfText2.pde - 웹상에 있는 텍스트 문서를 불러와서 단어의 빈도수를 글씨 크기로 분석하는 예제  
  - bubbleSign.pde - 버튼을 누르면 거품이 하나씩 늘어나며(최대 10개 까지) 롤오버를 하면 거품의 이름이 나타나는 예제  
- - parsinIMDB.pde - IMDB사이트의 HTML을 불러와서 내가 원하는 정보를 획득하는 예제  
+ - jsonTimer - http://time.jsontest.com/ 로부터 시간에 대한 json을 받아 화면에 표현해주는 예제   
+ - parsinIMDB.pde - IMDB사이트의 HTML을 불러와서 내가 원하는 정보를 획득하는 예제  
  - table.pde - csv파일을 테이블로 불러와 한 줄씩 row에 넣고 header에있는 분류로 불러오는 예제  
  - loopTable.pde - 한 번에 한 줄만 반환하는 gerRow()함수를 for문을 활용해 원하는 범위의 내용을 반복하여 불러오는 예제  
 
