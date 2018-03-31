@@ -137,7 +137,8 @@ txt, csv파일 등에서 데이터를 불러와 처리하는 예제
 - objectCar.pde - 객체를 활용하기 전에 일반적인 코드로 작성된 자동차 예제  
 - objectClassCar.pde - 클래스로 객체를 만들어 작성된 자동차 예제  
 - objectClassCar2.pde - 클래스에 인수를 적용하여 서로 다른 여러 자동차 객체를 만드는 예제  
-- objectClassGravity.pde - 클래스에 인수를 적용하여 서로 다른 공객체가 중력에 의해 작용되는 예제  
+- objectClassGravity.pde - 클래스에 인수를 적용하여 서로 다른 공 객체가 중력에 의해 작용되는 예제  
+- objectClassLine.pde - 클래스에 인수를 적용하여 서로 다른 라인 객체가 서로 다른 속도로 떨어지는 예제  
 - objectClassZoog.pde - 클래스와 인수를 적용한 Zoog  
 - objectInteraction - 롤오버가 되면 색깔이 밝아지도록 하는 상호반응형 객체를 만드는 예제  
 - oscillation.pde - 삼각함수를 사용해 진동을 만들고, 추를 시각화하는 예제  
