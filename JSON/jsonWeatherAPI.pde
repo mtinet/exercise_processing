@@ -1,4 +1,4 @@
-//지역별 위도와 경도
+//지역별 위도와 경도, 좌표는 형식만 맞춰서 추가할 수 있음.
 String CulverCity = "lat=34.0194&lon=-118.411";
 String Yongsan = "lat=37.541&lon=126.986";
 
