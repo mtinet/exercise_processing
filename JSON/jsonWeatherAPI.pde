@@ -1,4 +1,8 @@
-String expresstion;
+//지역별 위도와 경도
+String CulverCity = "lat=34.0194&lon=-118.411";
+String Yongsan = "lat=37.541&lon=126.986";
+
+
 JSONObject info;
 
 PFont myFont;
@@ -7,12 +11,17 @@ void setup() {
   size(200,200);
   myFont = createFont("Georgia", 32);
 
-  JSONObject json = loadJSONObject("http://api.openweathermap.org/data/2.5/weather?lat=37.541&lon=126.986&APPID=24109ddecb29a5405afe2a8df42c5e34");
+  // + 와 + 사이에 있는 지역명을 위에 제시된 변수 중에 선택하여 바꾸세요. 
+  JSONObject json = loadJSONObject("http://api.openweathermap.org/data/2.5/weather?" + Yongsan +"&APPID=24109ddecb29a5405afe2a8df42c5e34");
   println(json);
   println("********************");
   
   JSONArray weather = json.getJSONArray("weather");
   println(weather);
+  println("-------------------");
+  
+  String location = json.getString("name");
+  println(location);
   println("-------------------");
   
   for(int i = 0; i < weather.size(); i++) {
@@ -33,5 +42,6 @@ void setup() {
   
   textFont(myFont);
   textAlign(CENTER, CENTER);
-  text(expression, width/2, height/2);
+  text(location, width/2, height/2 - 25);
+  text(expression, width/2, height/2 + 25);
 }
