@@ -2,13 +2,14 @@
 String CulverCity = "lat=34.0194&lon=-118.411";
 String Yongsan = "lat=37.541&lon=126.986";
 
+String expression;
 
 JSONObject info;
 
 PFont myFont;
 
 void setup() {
-  size(200,200);
+  size(400,200);
   myFont = createFont("Georgia", 32);
 
   // + 와 + 사이에 있는 지역명을 위에 제시된 변수 중에 선택하여 바꾸세요. 
@@ -28,16 +29,19 @@ void setup() {
     info = weather.getJSONObject(i);
     println(info);
     println("++++++++++++++++++");
+    
+    expression = expression + " & " + info.getString("main");
   }
   
   
-  String expression = info.getString("main");
+  
   println("-------------------");
+  expression = expression.replace("null & ", "");
   println(expression);
   println("-------------------");
   
   
-  background(255);
+  background(200, 100, 100);
   fill(0);
   
   textFont(myFont);
