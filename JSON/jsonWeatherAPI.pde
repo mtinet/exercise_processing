@@ -1,6 +1,8 @@
 //지역별 위도와 경도, 좌표는 형식만 맞춰서 추가할 수 있음.
 String CulverCity = "lat=34.0194&lon=-118.411";
 String Yongsan = "lat=37.541&lon=126.986";
+String Busan = "lat=35.16&lon=129.04";
+String Gwangju = "lat=35.13&lon=126.79";
 
 String expression;
 
@@ -13,7 +15,7 @@ void setup() {
   myFont = createFont("Georgia", 32);
 
   // + 와 + 사이에 있는 지역명을 위에 제시된 변수 중에 선택하여 바꾸세요. 
-  JSONObject json = loadJSONObject("http://api.openweathermap.org/data/2.5/weather?" + Yongsan +"&APPID=24109ddecb29a5405afe2a8df42c5e34");
+  JSONObject json = loadJSONObject("http://api.openweathermap.org/data/2.5/weather?" + Gwangju +"&APPID=24109ddecb29a5405afe2a8df42c5e34");
   println(json);
   println("********************");
   
