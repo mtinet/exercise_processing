@@ -2,7 +2,9 @@
 String CulverCity = "lat=34.0194&lon=-118.411";
 String Yongsan = "lat=37.541&lon=126.986";
 String Busan = "lat=35.16&lon=129.04";
-String Gwangju = "lat=35.13&lon=126.79";
+String Gwangju = "lat=35.15472&lon=126.91556";
+String LA = "lat=34.052235&lon=-118.243683";
+
 
 String expression;
 
