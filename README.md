@@ -1,6 +1,8 @@
 # exercise_processing  
 
 ---
+[소스코드](https://github.com/mtinet/exercise_processing)  
+---
 ### Capture
 video를 활용하여 웹캠에서 들어오는 영상을 실시간으로 변환하는 예제  
 - rotateVideo.pde - 마우스 좌표에 따라 영상에 색을 입히고 일정한 속도로 회전시키는 예제   
